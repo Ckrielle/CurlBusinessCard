@@ -11,13 +11,14 @@ l[6]="    ${cyan}│                                                       │"
 l[7]="    ${cyan}│${reset}     ${underline}${bold}Email:${reset}  ${magenta}machinax@protonmail.com                   ${cyan}│"
 l[8]="    ${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://${reset}${cyan}ckrielle.github.io                ${cyan}│"
 l[9]="    ${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}Ckrielle               ${cyan}│"
-l[10]="    ${cyan}│                                                       │"
-l[11]="    ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://bit.ly/2ZGnLC5 | sh      ${cyan}│"
-l[12]="    ${cyan}│                                                       │"
-l[13]="    ${cyan}╰───────────────────────────────────────────────────────╯"
+l[10]="    ${cyan}│${reset}    ${underline}${bold}Medium:${reset}  ${dim}https://medium.com/${reset}${red}@machinax              ${cyan}│"
+l[11]="    ${cyan}│                                                       │"
+l[12]="    ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://bit.ly/2ZGnLC5 | sh      ${cyan}│"
+l[13]="    ${cyan}│                                                       │"
+l[14]="    ${cyan}╰───────────────────────────────────────────────────────╯"
 
 echo
-for i in {1..13}; do
+for i in {1..14}; do
     echo "${l[i]}"
 done
 echo
